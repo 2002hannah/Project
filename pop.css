@@ -1,0 +1,180 @@
+/* 彈出視窗的樣式 */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 300px;
+}
+
+.content {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 在popup.css中 */
+.popup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 9999;
+  padding: 10px;
+  max-width: 300px;
+}
+
+.popup-content {
+  text-align: center;
+}
+
+.popup .close {
+  float: right;
+  cursor: pointer;
+}
+
+
+/* 按鈕樣式 */
+button {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  /* 其他樣式設定 */
+  border-radius: 50%; /* 圓角半徑 */
+  padding: 8px 18px;
+  background-color: #D9D8D6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.click {
+  height: 60px;
+  width: 50px;
+}
+
+.round-button {
+  position: fixed;
+  border-radius: 50%; /* 圓角半徑 */
+  bottom: 20px; /* 距離底部20像素 */
+  right: 20px; /* 距離右側20像素 */
+  width: 50px; /* 按鈕寬度 */
+  height: 50px; /* 按鈕高度 */
+  border-radius: 50%; /* 讓按鈕變成圓形 */
+  background-color: #007bff; /* 按鈕背景顏色 */
+  color: #fff; /* 文字顏色 */
+  border: none; /* 移除邊框 */
+  font-size: 16px; /* 文字大小 */
+  cursor: pointer; /* 游標效果 */
+  z-index: 9999; /* 確保按鈕顯示在最上層 */
+}
+
+/* 彈出視窗樣式 */
+.popup {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9998;
+  border-radius: 30px;
+  width: 300px;
+  max-height: 700px; /* 設置最大高度 */
+/*  overflow-y: auto;*/ /* 垂直滾動條 */
+}
+
+.news_title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* 限制顯示的行數 */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  bottom: 10px;
+
+}
+
+.article {
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+
+.article_preview {
+  border: 2px solid #ccc; /* 2像素寬度、灰色實線邊框 */
+  padding: 20px; /* 內容與邊框之間的填充為20像素 */
+  width: 180px; /* div 寬度 */
+  margin: 20px; /* 外邊距20像素 */
+}
+
+.article_text {
+  border: 1px solid #ccc; /* 2像素寬度、灰色實線邊框 */
+
+}
+
+a {
+  text-decoration: none; /* 移除下劃線 */
+  color: #007bff; /* 設置超連結的顏色 */
+}
+
+/* a 元素的:hover樣式（當滑鼠懸停在連結上時的效果） */
+a:hover {
+  text-decoration: underline; /* 懸停時加上下劃線 */
+}
+
+
+/* 橫向滾動的 div 區塊樣式 */
+.scrollable-div {
+  display: flex;
+  width: 300px;
+  overflow-x: auto; /* 設置橫向滾動 */
+  overflow-y: hidden;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* 內容區塊樣式 */
+.scrollable-content {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100px;
+  height: 210px;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+}
+
+
+img {
+  width: 100px; /* 圖片寬度 */
+  height: 60px; /* 圖片高度 */
+  object-fit: cover; /* 維持圖片比例，裁剪至填滿容器 */
+}
+
+.commentForm {
+ margin-top: 16px; 
+ background-color: 007bff;
+}
+
+.message {
+  width: 260px;
+  height: 160;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+.submit {
+  border-radius: 50px; /* 圓角半徑 */
+  padding: 6px 14px;
+  font-size: 16px;
+  background-color: #D9D8D6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

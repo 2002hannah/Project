@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "彈出式視窗與後台真還傳",
+  "version": "1.0",
+  "description": "網頁右下角會出現開啟/關閉彈出式視窗的按鈕，並顯示小視窗、內文摘要、新標題、相符程度、readmore。",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "pop.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
