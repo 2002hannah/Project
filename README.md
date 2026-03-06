@@ -9,11 +9,11 @@
 「後臺真還傳」是一款瀏覽器擴充服務。其可以自動生成新聞摘要、評估標題與內文的相符程度，並推薦相似文章，旨在提升使用者的媒體素養，防止誤導性新聞擴散 。
 
 ## 系統介面
-![image]<img width="886" height="295" alt="image" src="https://github.com/user-attachments/assets/ddbde750-1838-4f11-bcc7-c916b8d80074" />
+<img width="886" height="295" alt="image" src="https://github.com/user-attachments/assets/ddbde750-1838-4f11-bcc7-c916b8d80074" />
 
-![image]<img width="827" height="443" alt="image" src="https://github.com/user-attachments/assets/856197b5-32b9-4afc-9e0a-104fb8004bca" />
+<img width="827" height="443" alt="image" src="https://github.com/user-attachments/assets/856197b5-32b9-4afc-9e0a-104fb8004bca" />
 
-![image]<img width="827" height="472" alt="image" src="https://github.com/user-attachments/assets/a8316b85-9127-44b6-9dd1-d405d172d7b8" />
+<img width="827" height="472" alt="image" src="https://github.com/user-attachments/assets/a8316b85-9127-44b6-9dd1-d405d172d7b8" />
 
 ## 環境
 ```
