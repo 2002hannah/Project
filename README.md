@@ -11,11 +11,9 @@
 ## 系統介面
 ![image]<img width="886" height="295" alt="image" src="https://github.com/user-attachments/assets/ddbde750-1838-4f11-bcc7-c916b8d80074" />
 
-![image](https://github.com/Heng1222/DVD-Platform/blob/main/Readme_img/%E6%93%B7%E5%8F%96_2024_10_27_11_37_48_27.png)
+![image]<img width="827" height="443" alt="image" src="https://github.com/user-attachments/assets/856197b5-32b9-4afc-9e0a-104fb8004bca" />
 
-![image](https://github.com/Heng1222/DVD-Platform/blob/main/Readme_img/%E6%93%B7%E5%8F%96_2024_10_27_11_37_33_363.png)
-
-![image](https://github.com/Heng1222/DVD-Platform/blob/main/Readme_img/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-05-15%20221704.png)
+![image]<img width="827" height="472" alt="image" src="https://github.com/user-attachments/assets/a8316b85-9127-44b6-9dd1-d405d172d7b8" />
 
 ## 環境
 ```
